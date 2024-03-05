@@ -1,6 +1,7 @@
-package com.example.planaway.user;
+package com.example.planaway.repository;
 
 
+import com.example.planaway.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

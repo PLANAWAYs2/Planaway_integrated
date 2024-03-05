@@ -1,4 +1,4 @@
-package com.example.planaway.user;
+package com.example.planaway.domain;
 
 import lombok.Data;
 

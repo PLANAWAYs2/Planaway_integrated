@@ -1,5 +1,7 @@
-package com.example.planaway.user;
+package com.example.planaway.service;
 
+import com.example.planaway.domain.Member;
+import com.example.planaway.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

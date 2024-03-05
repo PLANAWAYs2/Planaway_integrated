@@ -42,6 +42,8 @@ dependencies {
 
 	implementation 'org.springframework.security:spring-security-oauth2-client'
 
+	implementation 'net.coobird:thumbnailator:0.4.16'
+
 
 }
 

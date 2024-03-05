@@ -1,4 +1,4 @@
-package com.example.planaway.user;
+package com.example.planaway;
 
 public class SessionConst {
     public static final String LOGIN_MEMBER="loginMember";
