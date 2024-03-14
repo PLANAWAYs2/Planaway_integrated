@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf')
+      format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf')
+      format('truetype');
+  font-display: swap;
+}
+
+.LLogin {
+  width: 63px;
+  height: 29px;
+  margin: auto;
+  margin-top: 71px;
+  margin-bottom: 30px;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 24px;
+}
+.Linfo {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #efefef;
+  width: 616px;
+  height: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.LidPwBtn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.LidPw {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Lid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.LidPw .IInputTextForm {
+  margin-left: 10px;
+  width: 100%;
+}
+.LidPw .IButtonfalse {
+  display: none;
+}
+.Lpassword {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Lid span,
+.Lpassword span {
+  display: flex;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 16px;
+  align-items: center;
+}
+
+.Lid input,
+.Lpassword input {
+  width: 260px;
+  height: 31px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+}
+.LLoginButton {
+  width: 91px;
+  height: 86px;
+  background-color: #ff6827;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Ladd {
+  margin-left: 40px;
+}
+.LSignup,
+.LFindId {
+  padding-bottom: 5px;
+}
+
+.LSignup span,
+.LFindPw span,
+.LFindId span {
+  font-family: 'Pretendard-Medium';
+  font-size: 16px;
+  color: #9a9a9a;
+}
+.LSignup button,
+.LFindPw button,
+.LFindId button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Pretendard-Medium';
+  color: #ff6827;
+  font-size: 16px;
+  cursor: pointer;
+}
+.LSignup button:hover,
+.LFindPw button:hover,
+.LFindId button:hover {
+  text-decoration: underline;
+}
+
+.Lline1 {
+  margin: auto;
+  border: 1px solid #efefef;
+  width: 616px;
+  margin-top: 30px;
+}
+.LanotherWay {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.LanotherWay span {
+  text-align: center;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 16px;
+  margin-top: 50px;
+}
+.LanotherWay button {
+  margin: auto;
+  margin-top: 30px;
+  padding: 0;
+  width: 500px;
+  height: 44px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: 'Pretendard-Medium';
+  font-size: 16px;
+  color: #9a9a9a;
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 364px;
+}
+.LanotherWay img {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin: 8px 15px;
+}
+.LanotherWay .LgoogleLogin {
+  margin: auto;
+  padding-right: 60px;
+}
+.LanotherWay .Lline2 {
+  height: 41px;
+  border: 1px solid #efefef;
+}

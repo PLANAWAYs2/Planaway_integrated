@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf')
+      format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf')
+      format('truetype');
+  font-display: swap;
+}
+.VPpage {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 800px;
+}
+
+.VPTextSort {
+  display: flex;
+  justify-content: space-between;
+}
+
+.VPDropdown {
+  margin-right: 10px;
+  width: 100px;
+}
+
+.VPSortingText span {
+  color: #ff6827;
+}
+
+@keyframes slide-fade-in-dropdown-animation {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.slide-fade-in-dropdown {
+  overflow: hidden;
+}
+
+.slide-fade-in-dropdown > ul {
+  animation: slide-fade-in-dropdown-animation 0.4s ease;
+}
+
+@keyframes slide-fade-out-dropdown-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.slide-fade-out-dropdown {
+  overflow: hidden;
+}
+
+.slide-fade-out-dropdown > ul {
+  animation: slide-fade-out-dropdown-animation 0.4s ease;
+  animation-fill-mode: forwards;
+  /*요소가 애니메이션이 끝난 후에도 특정한 상태를 유지하도록 하고자 할 때 사용
+  ex) 드롭다운 메뉴가 화면에서 사라질 때 사용자가 마지막으로 선택한 항목을 유지하고 싶을 때 
+  animation-fill-mode: forwards;를 사용하면 애니메이션이 완료된 후에도 드롭다운 메뉴가 마지막으로 선택한 항목의 상태를 유지하게 된다.*/
+}
+
+.DDropdownBtn {
+  border-radius: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.DDropdownBtn img {
+  width: 10px;
+  height: 7px;
+  margin-left: 10px;
+}
+
+.DDropdownBtn span {
+  font-family: 'Pretendard-SemiBold';
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.Dcomponents-dropdown {
+  position: absolute;
+  margin-left: 8px;
+}
+
+.Dcomponents-dropdown > ul {
+  position: relative;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid #2c2c2c;
+  border-radius: 4px;
+}
+
+.Dcomponents-dropdown > ul > li {
+  box-sizing: border-box;
+  padding: 7px;
+  font-size: 15px;
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.Dcomponents-dropdown > ul > li:hover {
+  color: #ff6827;
+}

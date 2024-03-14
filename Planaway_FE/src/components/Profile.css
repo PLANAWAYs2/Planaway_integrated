@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  font-weight: 600;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf")
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Pretendard-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf")
+      format("truetype");
+  font-display: swap;
+}
+.Profile {
+  display: flex;
+  margin-top: 73px;
+}
+.ProfilePicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.ProfileInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-top: 10px;
+}
+
+.ProfileName {
+  font-family: Pretendard-SemiBold;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.ProfileEdit {
+  margin-top: 14px;
+  cursor: pointer;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.ProfileEdit span {
+  font-family: Pretendard-Medium;
+  font-size: 16px;
+  margin-left: 8px;
+}

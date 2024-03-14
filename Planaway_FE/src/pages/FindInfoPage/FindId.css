@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf')
+      format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf')
+      format('truetype');
+  font-display: swap;
+}
+
+.FIFindID {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 364px;
+}
+
+.FIInputAndFP {
+  border: 1px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 616px;
+  height: 170px;
+  margin-bottom: 30px;
+}
+
+.FIInput {
+  margin-top: 10px;
+  justify-content: space-evenly;
+  margin-left: 58px;
+}
+
+.FIInput .IInputTextForm {
+  justify-content: center;
+  width: 100%;
+}
+.FIInput .true {
+  width: 500px;
+}
+.FIText {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 71px;
+  margin-bottom: 30px;
+}
+
+.FIFindPw {
+  display: flex;
+  width: 100%;
+  margin-left: 173px;
+}
+
+.FIFindPw span {
+  font-family: 'Pretendard-Medium';
+  font-size: 16px;
+  color: #9a9a9a;
+}
+.FIFindPw button {
+  background-color: transparent;
+  border: none;
+  font-family: 'Pretendard-Medium';
+  color: #ff6827;
+  font-size: 16px;
+  cursor: pointer;
+}
+.FIFindPw button:hover {
+  text-decoration: underline;
+}
+
+.FIDescription {
+  font-family: Pretendard-Medium;
+  font-size: 16px;
+  color: #ff6827;
+}
