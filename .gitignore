@@ -35,3 +35,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# manually ignored
+.idea/
+Planaway_integrated/Planaway_integrated/
+

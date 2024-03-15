@@ -18,6 +18,5 @@ public class PlanTitle {
     @Column(length=50)
     private String title;
 
-    @OneToMany(mappedBy = "planDetail", cascade = CascadeType.REMOVE)
-    private List<PlanDetail> planDetailList;
+
 }

@@ -1,4 +1,4 @@
-package com.example.planaway.dto;
+package com.example.planaway.domain;
 
 import com.example.planaway.domain.PlanTitle;
 import jakarta.persistence.Entity;

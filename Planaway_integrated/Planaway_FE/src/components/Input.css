@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf')
+      format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf')
+      format('truetype');
+  font-display: swap;
+}
+
+.true,
+.false {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.IInputTextFormfalse,
+.IInputTextFormtrue {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.IInputText {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.IInputForm input {
+  box-sizing: border-box;
+  width: 260px;
+  height: 35px;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.IButtontrue button {
+  font-family: Pretendard-Medium;
+  font-size: 16px;
+  width: 131px;
+  height: 35px;
+  background-color: transparent;
+  color: #9a9a9a;
+  border: none;
+  border-radius: 4px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.IButtontrue button:hover {
+  text-decoration: underline;
+}
+
+.IButtonfalse button {
+  margin-right: 20px;
+  width: 131px;
+  height: 35px;
+  visibility: hidden;
+}

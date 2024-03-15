@@ -1,0 +1,151 @@
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-SemiBold.ttf')
+      format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot');
+  src: url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.woff')
+      format('woff'),
+    url('https://cdn.jsdelivr.net/gh/webfontworld/pretendard/Pretendard-Medium.ttf')
+      format('truetype');
+  font-display: swap;
+}
+
+.Mbanner {
+  margin: auto;
+  width: 1280px;
+  height: 300px;
+  position: relative;
+}
+
+.MbannerImgPic {
+  background-image: url('../../../public/assets/background.png');
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.MbannerImgInfo {
+  position: absolute;
+  top: 88px;
+  left: 120px;
+}
+
+.MbannerImgInfoTitle {
+  font-size: 24px;
+  font-family: 'Pretendard-Medium';
+  color: #2c2c2c;
+}
+.MbannerImgInfoTitle span {
+  font-size: 24px;
+  font-family: 'Pretendard-Medium';
+  color: #ff6827;
+}
+.MbannerImgInfoContent {
+  font-size: 16px;
+  font-family: 'Pretendard-Medium';
+  color: #2c2c2c;
+  margin-top: 14px;
+}
+
+.MTravelSpot {
+  margin-top: 59px;
+}
+
+.MTravelSpotDomestic {
+  margin-top: 79px;
+  margin-bottom: 105px;
+}
+
+.MTravelSpotOversea span {
+  font-size: 16px;
+  font-family: 'Pretendard-Medium';
+  color: #2c2c2c;
+  padding-left: 10px;
+}
+
+.MTravelSpotDomestic span {
+  font-size: 16px;
+  font-family: 'Pretendard-Medium';
+  color: #2c2c2c;
+  padding-left: 10px;
+}
+@media screen and (min-width: 0) {
+  .MTravelSpotOverseasCard {
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+  }
+}
+
+.MTravelSpotOverseasCard_1,
+.MTravelSpotOverseasCard_2,
+.MTravelSpotOverseasCard_3,
+.MTravelSpotOverseasCard_4,
+.MTravelSpotOverseasCard_5 {
+  width: 192px;
+  height: 256px;
+  border-radius: 12px;
+  background-color: #efefef;
+  margin-top: 11px;
+  display: flex;
+  align-items: end;
+}
+.MTravelSpotOverseasCard_1 span,
+.MTravelSpotOverseasCard_2 span,
+.MTravelSpotOverseasCard_3 span,
+.MTravelSpotOverseasCard_4 span,
+.MTravelSpotOverseasCard_5 span {
+  margin-bottom: 13px;
+  margin-left: 17px;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 0) {
+  .MTravelSpotDomesticCard {
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+  }
+}
+
+.MTravelSpotDomesticCard_1,
+.MTravelSpotDomesticCard_2,
+.MTravelSpotDomesticCard_3,
+.MTravelSpotDomesticCard_4,
+.MTravelSpotDomesticCard_5 {
+  width: 192px;
+  height: 256px;
+  border-radius: 12px;
+  background-color: #efefef;
+  margin-top: 11px;
+  display: flex;
+  align-items: end;
+}
+
+.MTravelSpotDomesticCard_1 span {
+  margin-bottom: 13px;
+  margin-left: 17px;
+  font-family: 'Pretendard-SemiBold';
+  font-size: 16px;
+}

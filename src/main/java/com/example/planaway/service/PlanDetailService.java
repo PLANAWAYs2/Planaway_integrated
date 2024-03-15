@@ -15,9 +15,29 @@ public class PlanDetailService {
 
     private final PlanDetailRepository planDetailRepository;
 
-    public List<PlanDetail> getList(){
 
-        return this.planDetailRepository.findAll();
+    // PlanDetail 엔티티의 리스트를 조회하는 메서드
+    public List<PlanDetail> getList() {
+        return planDetailRepository.findAll();
+    }
 
+    // PlanDetail 엔티티 추가 메서드
+    public PlanDetail addPlanDetail(PlanDetail planDetail) {
+        return planDetailRepository.save(planDetail);
+    }
+
+    // PlanDetail 엔티티 수정 메서드
+    public PlanDetail updatePlanDetail(PlanDetail planDetail) {
+        return planDetailRepository.save(planDetail);
+    }
+
+    // PlanDetail 엔티티 삭제 메서드
+    public void deletePlanDetail(Long id) {
+        planDetailRepository.deleteById(id);
+    }
+
+    public List<PlanDetail> getPlanDetailsByInfoId(Long infoId) {
+        return planDetailRepository.findByInfoId(infoId);
     }
 }
+

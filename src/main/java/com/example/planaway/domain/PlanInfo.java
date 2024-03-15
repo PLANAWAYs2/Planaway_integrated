@@ -1,14 +1,12 @@
 package com.example.planaway.domain;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToOne;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Getter
@@ -17,21 +15,24 @@ import java.util.List;
 public class PlanInfo {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @ElementCollection
     @Column(columnDefinition = "TEXT")
     private List<String> continents;
 
+    @ElementCollection
     @Column(columnDefinition = "TEXT")
     private List<String> countries;
 
-    @DateTimeFormat(pattern = "YYYY-MM-DD")
-    private String startDate;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private LocalDate startDate;
 
-    @DateTimeFormat(pattern = "YYYY-MM-DD")
-    private String endDate;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private LocalDate endDate;
 
-
-
+    @OneToMany(mappedBy = "planInfo", cascade = CascadeType.REMOVE)
+    private List<PlanDetail> planDetailList;
 
 }
